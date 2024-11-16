@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .nav {
+    margin-top: 0.5rem;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #f39c12;
+  }
+  
+
+  .perfil-img {
+    width: 1050px;
+    height: auto;
+    border-radius: 0%;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  /* Lista de habilidades */
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .skills-list li {
+    margin: 0.5rem 0;
+  }
+  
+  /* Proyectos */
+  .project {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project h3 {
+    margin: 0;
+    color: #f39c12;
+  }
+  
+  /* Enlaces de redes sociales */
+  .social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .social-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .social-links a {
+    color: #f39c12;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #fff;
+  }
+  
+  /* Formulario */
+  .contact-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #f39c12;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #d35400;
+  }
+  
+  /* Pie de página */
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  }
